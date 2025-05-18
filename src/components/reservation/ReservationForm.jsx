@@ -43,13 +43,11 @@ const ReservationForm = () => {
     };
 
     try {
-      const response = await fetch('http://localhost:3001/send-reservation', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(data),
-      });
+ const response = await fetch("https://restaurant-backend-uztu.onrender.com/send-contact", {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify(data),
+});
 
       const result = await response.json();
 
