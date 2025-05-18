@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import Lightbox from './Lightbox';
+import Lightbox from './LightBox';
+
 
 const GalleryGrid = ({ items, filter }) => {
   const [lightboxOpen, setLightboxOpen] = useState(false);
