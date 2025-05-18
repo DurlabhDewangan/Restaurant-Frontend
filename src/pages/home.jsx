@@ -2,8 +2,8 @@ import AboutSection from '../components/home/AboutSection';
 import SignatureDishes from '../components/home/ChefsSignature';
 import Contact from '../components/home/Contact';
 import Gallery from '../components/home/Gallery';
-import HeroSection from '../components/home/hero';
 import MenuSection from '../components/home/Menu';
+import HeroSection from '../components/home/Heros';
 
 import Testimonials from '../components/home/Testimonial';
 
